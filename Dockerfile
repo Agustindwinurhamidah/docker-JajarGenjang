@@ -1,12 +1,12 @@
 FROM openjdk:8-jdk-alpine
-MAINTAINER Mutiara_Rahmanda <1941720189@student.polinema.ac.id>
+MAINTAINER agustindwinurhamidah <1931710076@student.polinema.ac.id>
 RUN mkdir -p /java
 WORKDIR /java
 
-COPY Kubus.java /java
+COPY JajarGenjang.java /java
 
 #compile file java
-RUN javac Kubus.java
+RUN javac JajarGenjang.java
 
 #running java
-ENTRYPOINT java Kubus
+ENTRYPOINT java JajarGenjang
