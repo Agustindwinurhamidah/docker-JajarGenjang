@@ -19,7 +19,7 @@ public class kubus {
 
         volume = (sisi*sisi*sisi);
 
-        System.out.println(“volume kubus adalah “+volume);
+        System.out.println(“volume kubus adalah "+volume);
 
     }
 
