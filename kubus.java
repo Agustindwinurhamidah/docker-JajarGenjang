@@ -9,9 +9,9 @@ public class kubus {
 
         int sisi , volume;
 
-        System.out.println(“program perhitungan volume kubus”);
+        System.out.println("program perhitungan volume kubus");
 
-        System.out.println(“masukkan sisi kubus”);
+        System.out.println("masukkan sisi kubus”);
 
         sisi = sc.nextInt();
 
@@ -19,7 +19,7 @@ public class kubus {
 
         volume = (sisi*sisi*sisi);
 
-        System.out.println(“volume kubus adalah "+volume);
+        System.out.println("volume kubus adalah "+volume);
 
     }
 
